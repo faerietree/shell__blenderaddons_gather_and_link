@@ -48,6 +48,9 @@ rm $ADDONS_COLLECTION_PATH/*
 
 # Note that space ' ' is delimiter by default:
 # Order matters, later mentioned folders can't override addons that already exist.
+if [ -z $ALL_PATHS_TO_ADDONS ]; then
+	echo 'Using user provided blender addons: '$ALL_PATHS_TO_ADDONS
+else
 ALL_PATHS_TO_ADDONS=(
 
     $HOME/blender_addon__export_to_pyrogenesis/*.py
@@ -71,7 +74,9 @@ ALL_PATHS_TO_ADDONS=(
 	
 	$BLENDER_ADDONS_BACKUP_PATH
 ) 
-	
+fi
+
+
 for i in "${ALL_PATHS_TO_ADDONS[@]}"; do
 	
     currentValue=$i
