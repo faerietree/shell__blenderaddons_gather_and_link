@@ -136,3 +136,6 @@ done
 echo '-> into ' ${ADDONS_COLLECTION_PATH}
 echo '*done*'
 
+echo 'Removing __pycache__ ...'
+rm $BLENDER_ADDONS_PATH/__pycache__ -r
+echo '*done*'
