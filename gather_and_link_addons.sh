@@ -6,9 +6,9 @@ if [ ! -z $PATH_TO_BLENDER_RELEASE ]; then
 elif [ -z $BLENDER_RELEASE_PATH ]; then
 	echo 'Using user provided blender release: '$BLENDER_RELEASE_PATH
 else
-#    BLENDER_RELEASE_PATH='~/blender'
+    BLENDER_RELEASE_PATH='~/blender'
 #    BLENDER_RELEASE_PATH='~/blenderart'
-    BLENDER_RELEASE_PATH='~/blendercad'
+#    BLENDER_RELEASE_PATH='~/blendercad'
 #    BLENDER_RELEASE_PATH='~/blendercam'
 	echo 'Using default blender release location: '$BLENDER_RELEASE_PATH
 fi
