@@ -1,9 +1,9 @@
 #!/bin/bash
 
-if [ -z $PATH_TO_BLENDER_RELEASE ]; then
+if [ ! -z $PATH_TO_BLENDER_RELEASE ]; then
 	echo 'Using user provided blender release: '$PATH_TO_BLENDER_RELEASE
 	BLENDER_RELEASE_PATH=$PATH_TO_BLENDER_RELEASE
-elif [ ! -z $BLENDER_RELEASE_PATH ]; then
+elif [ -z $BLENDER_RELEASE_PATH ]; then
 	echo 'Using user provided blender release: '$BLENDER_RELEASE_PATH
 else
     BLENDER_RELEASE_PATH=~/blendercad
@@ -48,7 +48,7 @@ rm $ADDONS_COLLECTION_PATH/*
 
 # Note that space ' ' is delimiter by default:
 # Order matters, later mentioned folders can't override addons that already exist.
-if [ -z $ALL_PATHS_TO_ADDONS ]; then
+if [ ! -z $ALL_PATHS_TO_ADDONS ]; then
 	echo 'Using user provided blender addons: '$ALL_PATHS_TO_ADDONS
 else
 ALL_PATHS_TO_ADDONS=(
