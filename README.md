@@ -18,6 +18,10 @@ In my case: (just use CTRL+R in the command line to search for a command you alr
 
     ~/shell__blenderaddons_gather_and_link/gather_and_link_addons.sh
 
+or
+
+    PATH_TO_BLENDER_RELEASE=~/blendercad ~/shell__blenderaddons_gather_and_link/gather_and_link_addons.sh
+
 
 
 Example addons paths configuration: (order matters!)
