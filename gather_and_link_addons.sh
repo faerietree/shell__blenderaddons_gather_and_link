@@ -117,7 +117,7 @@ else
         $HOME/blender-addons/*
         $HOME/blender-addons-contrib/*
 	    
-	    $BLENDER_ADDONS_BACKUP_PATH
+	    $BLENDER_ADDONS_BACKUP_PATH/*
     ) 
 fi
 
