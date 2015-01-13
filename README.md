@@ -22,6 +22,9 @@ or
 
     PATH_TO_BLENDER_RELEASE=~/blendercad ~/shell__blenderaddons_gather_and_link/gather_and_link_addons.sh
 
+When blender complains about missing files:
+---
+Rerun the script. This is required if you e.g. rename your addons in any of the addon locations (see below). Else blender will complain of not found files of activated addons. 
 
 
 Example addons paths configuration: (order matters!)
