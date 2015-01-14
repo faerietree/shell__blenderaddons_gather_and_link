@@ -3,11 +3,15 @@ Gather and link addons
 
 Why use?
 -----
-Keep addons in a single location, e.g. your development repository.
+Allows to maintain many custom addons all in their respective locations (single source! Not spread in a thousand versions across all places).
+
+No longer deal with redundant copies of addons.
+
+Maintains all blender release-delivered addons.
 
 What the script does?
 ----
-First gathers all addons from the folders as you specified. Then links them to the blender release addons/ folder backing up the existing addons/ folder into adddons.bak/.
+First gathers all addons from addon locations you specified (see example below). Then links them to the blender release addons/ folder backing up the existing addons/ folder into addons.bak/.
 
 Usage:
 ----
