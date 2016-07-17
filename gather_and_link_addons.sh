@@ -117,6 +117,7 @@ else
         $HOME/blender-addons-misc/*
 
         $HOME/blender-addons-modified/*
+        $HOME/blender-addons-symlinks/*
 
         $HOME/blender-addons/*
         $HOME/blender-addons-contrib/*
