@@ -28,39 +28,39 @@ or
 
 When blender complains about missing files:
 ---
-Rerun the script. This is required if you e.g. rename your addons in any of the addon locations (see below). Else blender will complain of not found files of activated addons. 
+Rerun the script. This is required if you e.g. rename your addons in any of the addon locations (see below). Else blender will complain of not found files of activated addons.
 
 
 Example addons paths configuration: (order matters!)
 ----
 
-Order matters: A twice existing file can't be overridden. The first file will take precedence (may depend on operating system). 
+Order matters: A twice existing file can't be overridden. The first file will take precedence (may depend on operating system).
 
-     
+
     ALL_PATHS_TO_ADDONS=(
-        
+
         $HOME/blender_addon__export_to_pyrogenesis/*.py
         $HOME/blender_addon__render2print/*.py
         $HOME/blender_addon__selection2bom/*.py
         $HOME/blender_addon__multi_join_or_group_by_autoexpanded_    pattern/*.py
         $HOME/blender_addon__meshlint/*.py
-        
+
         $HOME/BlenderCAM/scripts/addons/*
         $HOME/blender_addon__basrelief/basrelief.py
 
         $HOME/blender-addons-zeffii/*
         $HOME/macouno-read-only/Blender/addons/*
-        
+
         $HOME/blender-addons-misc/*
-        
+
         $HOME/blender-addons-modified/*
-        
+
         $HOME/blender-addons/*
         $HOME/blender-addons-contrib/*
-        
+
         $BLENDER_ADDONS_BACKUP_PATH
     )
 
 By including `BLENDER_ADDONS_BACKUP_PATH`, which usually is just `/path/to/blenderreleasefiles/2.xy/scripts/addons.bak/` it's ensured that at least all release provided addons exist.
- 
+
 
