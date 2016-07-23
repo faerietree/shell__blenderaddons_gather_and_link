@@ -31,6 +31,19 @@ When blender complains about missing files:
 Rerun the script. This is required if you e.g. rename your addons in any of the addon locations (see below). Else blender will complain of not found files of activated addons.
 
 
+
+Use without customized addon paths configuration:
+---
+A folder for symbolic links to addons anywhere in the filesystem now included by default since [version 1.2](https://github.com/faerietree/shell__blenderaddons_gather_and_link/releases):
+
+This allows to just link the addons as symbolic links
+
+    cd $HOME/blender-addons-symlinks
+    ln -s ../rel/path/to/addon__module__or.py $HOME/blender-addons-symlinks/
+    /path/to/gather_and_link_addons.sh
+
+
+
 Example addons paths configuration: (order matters!)
 ----
 
