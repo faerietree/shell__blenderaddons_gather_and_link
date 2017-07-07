@@ -98,16 +98,8 @@ if [ ! -z ${ALL_PATHS_TO_ADDONS} ]; then
 else
     ALL_PATHS_TO_ADDONS=(
 
-        $HOME/blender_addon__export_to_pyrogenesis/*.py
-        $HOME/blender_addon__render2print/*.py
-        $HOME/blender_addon__selection2bom/*.py
-        $HOME/blender_addon__selection2blueprint/*.py
-        $HOME/blender_addon__siding_generator/*.py
-        $HOME/blender_addon__multi_join_or_group_by_autoexpanded_pattern/*.py
-        $HOME/blender_addon__meshlint/*.py
-
         $HOME/BlenderCAM/scripts/addons/*
-        $HOME/blender_addon__basrelief/basrelief.py
+        $HOME/blender_addons/basrelief/basrelief.py
 
         $HOME/blender-addons-antonioya/*py
         $HOME/blender-addons-zeffii/*
