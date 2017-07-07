@@ -52,14 +52,8 @@ Order matters: A twice existing file can't be overridden. The first file will ta
 
     ALL_PATHS_TO_ADDONS=(
 
-        $HOME/blender_addon__export_to_pyrogenesis/*.py
-        $HOME/blender_addon__render2print/*.py
-        $HOME/blender_addon__selection2bom/*.py
-        $HOME/blender_addon__multi_join_or_group_by_autoexpanded_    pattern/*.py
-        $HOME/blender_addon__meshlint/*.py
-
         $HOME/BlenderCAM/scripts/addons/*
-        $HOME/blender_addon__basrelief/basrelief.py
+        $HOME/blender_addons/basrelief/basrelief.py
 
         $HOME/blender-addons-zeffii/*
         $HOME/macouno-read-only/Blender/addons/*
