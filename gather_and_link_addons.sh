@@ -98,13 +98,12 @@ if [ ! -z ${ALL_PATHS_TO_ADDONS} ]; then
 else
     ALL_PATHS_TO_ADDONS=(
 
-        $HOME/BlenderCAM/scripts/addons/*
+        $HOME/blenderCAM/scripts/addons/*
         $HOME/blender_addons/basrelief/basrelief.py
 
-        $HOME/blender-addons-antonioya/*py
+        $HOME/blender-addons-antonioya/*/src
         $HOME/blender-addons-zeffii/*
-        $HOME/Blender_CAD_utils/*
-        $HOME/macouno-read-only/Blender/addons/*
+        $HOME/blender-addons-macouno/Blender/addons/*
 
         $HOME/blender-addons-misc/*
 
