@@ -105,9 +105,12 @@ else
         $HOME/blender-addons-zeffii/*
         $HOME/blender-addons-macouno/Blender/addons/*
 
-        $HOME/blender-addons-misc/*
+        $HOME/blender-addons-misc/*.py
+        $HOME/blender-addons-misc/*/
 
-        $HOME/blender-addons-modified/*
+        $HOME/blender-single-file-addons/*.py
+        $HOME/blender-single-file-addons/*/*.py
+
         $HOME/blender-addons-symlinks/*
 
         $HOME/blender-addons/*
